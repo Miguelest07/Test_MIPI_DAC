@@ -1,0 +1,17 @@
+if {![file exists "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/SIM1/SIM1.mpf"]} { 
+	project new "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/SIM1" SIM1
+	project addfile "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v"
+	project addfile "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/testbench.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog  +incdir+C:/Users/Roman Perez/Desktop/Lattice_projects/Test  -work work  "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v"
+	vlog  +incdir+C:/Users/Roman Perez/Desktop/Lattice_projects/Test  -work work  "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/testbench.v"
+} else {
+	project open "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/SIM1/SIM1"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo3l  testbench
+view wave
+add wave /*
+run 1000ns

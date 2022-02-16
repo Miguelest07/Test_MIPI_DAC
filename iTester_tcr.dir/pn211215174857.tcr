@@ -1,0 +1,25 @@
+#Start recording tcl command: 12/15/2021 14:45:20
+#Project Location: C:/Users/Roman Perez/Desktop/Lattice_projects/Test; Project name: iTester
+prj_project new -name "iTester" -impl "DSI_Workspace" -dev LCMXO3LF-6900C-5BG256C -synthesis "lse"
+prj_project save
+prj_src add "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/DSI_Workspace.v"
+prj_src add "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/DSI_Slave.v"
+prj_src add "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/DSI_Protocol.v"
+prj_src add "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/Serial_Protocol.v"
+prj_src add "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/PLL_block.v"
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace -task Lattice_Synthesis
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+prj_run Synthesis -impl DSI_Workspace
+#Stop recording: 12/15/2021 17:48:57

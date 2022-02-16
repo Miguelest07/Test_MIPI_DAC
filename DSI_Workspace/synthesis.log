@@ -1,0 +1,249 @@
+synthesis:  version Diamond (64-bit) 3.12.0.240.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+Thu Dec 16 11:35:06 2021
+
+
+Command Line:  synthesis -f iTester_DSI_Workspace_lattice.synproj -gui -msgset C:/Users/Roman Perez/Desktop/Lattice_projects/Test/promote.xml 
+
+Synthesis options:
+The -a option is MachXO3LF.
+The -s option is 5.
+The -t option is CABGA256.
+The -d option is LCMXO3LF-6900C.
+Using package CABGA256.
+Using performance grade 5.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO3LF
+
+### Device  : LCMXO3LF-6900C
+
+### Package : CABGA256
+
+### Speed   : 5
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = DSI_Workspace.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Users/Roman Perez/Desktop/Lattice_projects/Test (searchpath added)
+-p C:/lscc/diamond/3.12/ispfpga/xo3c00f/data (searchpath added)
+-p C:/Users/Roman Perez/Desktop/Lattice_projects/Test/DSI_Workspace (searchpath added)
+-p C:/Users/Roman Perez/Desktop/Lattice_projects/Test (searchpath added)
+Verilog design file = C:/Users/Roman Perez/Desktop/Lattice_projects/Test/DSI_Workspace.v
+Verilog design file = C:/Users/Roman Perez/Desktop/Lattice_projects/Test/DSI_Slave.v
+Verilog design file = C:/Users/Roman Perez/Desktop/Lattice_projects/Test/DSI_Protocol.v
+Verilog design file = C:/Users/Roman Perez/Desktop/Lattice_projects/Test/Serial_Protocol.v
+Verilog design file = C:/Users/Roman Perez/Desktop/Lattice_projects/Test/PLL_block.v
+NGD file = iTester_DSI_Workspace.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/users/roman perez/desktop/lattice_projects/test/dsi_workspace.v. VERI-1482
+Analyzing Verilog file c:/users/roman perez/desktop/lattice_projects/test/dsi_slave.v. VERI-1482
+Analyzing Verilog file c:/users/roman perez/desktop/lattice_projects/test/dsi_protocol.v. VERI-1482
+Analyzing Verilog file c:/users/roman perez/desktop/lattice_projects/test/serial_protocol.v. VERI-1482
+Analyzing Verilog file c:/users/roman perez/desktop/lattice_projects/test/pll_block.v. VERI-1482
+Analyzing Verilog file C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v. VERI-1482
+Top module name (Verilog): DSI_Workspace
+INFO - synthesis: c:/users/roman perez/desktop/lattice_projects/test/dsi_workspace.v(1): compiling module DSI_Workspace. VERI-1018
+INFO - synthesis: c:/users/roman perez/desktop/lattice_projects/test/dsi_protocol.v(1): compiling module DSI_Protocol. VERI-1018
+WARNING - synthesis: c:/users/roman perez/desktop/lattice_projects/test/dsi_protocol.v(64): expression size 32 truncated to fit in target size 25. VERI-1209
+WARNING - synthesis: c:/users/roman perez/desktop/lattice_projects/test/dsi_protocol.v(133): expression size 32 truncated to fit in target size 8. VERI-1209
+INFO - synthesis: c:/users/roman perez/desktop/lattice_projects/test/serial_protocol.v(1): compiling module Serial_Protocol. VERI-1018
+WARNING - synthesis: c:/users/roman perez/desktop/lattice_projects/test/serial_protocol.v(55): expression size 32 truncated to fit in target size 7. VERI-1209
+INFO - synthesis: c:/users/roman perez/desktop/lattice_projects/test/dsi_slave.v(1): compiling module DSI_Slave. VERI-1018
+INFO - synthesis: c:/users/roman perez/desktop/lattice_projects/test/pll_block.v(8): compiling module PLL_block. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1124): compiling module VLO. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.12/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo3l.v(1696): compiling module EHXPLLJ(CLKOP_DIV=5,CLKOS_DIV=10,CLKOS2_DIV=1,CLKOS3_DIV=1,CLKOS2_ENABLE="DISABLED",CLKOS3_ENABLE="DISABLED",CLKOP_CPHASE=4,CLKOS_CPHASE=9,FEEDBK_PATH="CLKOS",CLKOP_TRIM_DELAY=2,CLKOS_TRIM_DELAY=2). VERI-1018
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo3c6900.nph' in environment: C:/lscc/diamond/3.12/ispfpga.
+Package Status:                     Final          Version 1.16.
+Top-level module name = DSI_Workspace.
+
+
+
+WARNING - synthesis: c:/users/roman perez/desktop/lattice_projects/test/dsi_protocol.v(263): Register \DSI_control_P/sss_i3 is stuck at Zero. VDB-5013
+WARNING - synthesis: c:/users/roman perez/desktop/lattice_projects/test/dsi_protocol.v(263): Register \DSI_control_P/sss_i2 is stuck at One. VDB-5014
+GSR will not be inferred because no asynchronous signal was found in the netlist.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/wave_i0_i0 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/idle_i0_i0 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/stateq_i0 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/wave_i0_i0 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/stateq_i0 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/idle_i0_i0 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_BUS1N/DAC_i1 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/idle_i0_i10 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/idle_i0_i8 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/idle_i0_i5 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/idle_i0_i2 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/wave_i0_i9 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/wave_i0_i8 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/wave_i0_i6 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/wave_i0_i5 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/wave_i0_i4 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/wave_i0_i2 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_P/wave_i0_i1 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_BUS1P/DAC_i0_i4 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_BUS1P/DAC_i0_i2 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/idle_i0_i10 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/idle_i0_i8 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/idle_i0_i5 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/idle_i0_i2 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/wave_i0_i9 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/wave_i0_i8 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/wave_i0_i6 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/wave_i0_i5 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/wave_i0_i4 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/wave_i0_i2 will be ignored.
+WARNING - synthesis: Initial value found on instance \DSI_control_N/wave_i0_i1 will be ignored.
+Duplicate register/latch removal. \DSI_control_P/MIPI_clk_DAC_d__i1 is a one-to-one match with \DSI_control_P/MIPI_clk_DAC_d__i8.
+Duplicate register/latch removal. \DSI_BUS1N/DAC_i8 is a one-to-one match with \DSI_BUS1N/DAC_i7.
+Duplicate register/latch removal. \DSI_control_N/MIPI_clk_DAC_d_i1 is a one-to-one match with \DSI_control_N/MIPI_clk_DAC_d_i8.
+Duplicate register/latch removal. \DSI_control_N/MIPI_clk_DAC_d_i7 is a one-to-one match with \DSI_control_N/MIPI_clk_DAC_d_i1.
+Duplicate register/latch removal. \DSI_control_N/MIPI_clk_DAC_d_i6 is a one-to-one match with \DSI_control_N/MIPI_clk_DAC_d_i7.
+Duplicate register/latch removal. \DSI_control_N/MIPI_clk_DAC_d_i5 is a one-to-one match with \DSI_control_N/MIPI_clk_DAC_d_i3.
+Duplicate register/latch removal. \DSI_control_N/MIPI_clk_DAC_d_i4 is a one-to-one match with \DSI_control_N/MIPI_clk_DAC_d_i6.
+Duplicate register/latch removal. \DSI_control_N/MIPI_clk_DAC_d_i2 is a one-to-one match with \DSI_control_N/MIPI_clk_DAC_d_i5.
+Duplicate register/latch removal. \DSI_BUS1P/DAC_i0_i8 is a one-to-one match with \DSI_BUS1P/DAC_i0_i7.
+Duplicate register/latch removal. \DSI_control_P/MIPI_clk_DAC_d__i6 is a one-to-one match with \DSI_control_P/MIPI_clk_DAC_d__i1.
+Duplicate register/latch removal. \DSI_control_P/MIPI_clk_DAC_d__i5 is a one-to-one match with \DSI_control_P/MIPI_clk_DAC_d__i3.
+Duplicate register/latch removal. \DSI_control_P/MIPI_clk_DAC_d__i4 is a one-to-one match with \DSI_control_P/MIPI_clk_DAC_d__i6.
+Duplicate register/latch removal. \DSI_control_P/MIPI_clk_DAC_d__i2 is a one-to-one match with \DSI_control_P/MIPI_clk_DAC_d__i5.
+Duplicate register/latch removal. \DSI_control_N/MIPI_clk_d_265 is a one-to-one match with \DSI_control_N/MIPI_clk_DAC_d_i4.
+Applying 200.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in DSI_Workspace_drc.log.
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.12/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file iTester_DSI_Workspace.ngd.
+
+################### Begin Area Report (DSI_Workspace)######################
+Number of register bits => 178 of 7485 (2 % )
+CCU2D => 84
+EHXPLLJ => 1
+FD1P3AX => 23
+FD1P3AY => 6
+FD1P3IX => 110
+FD1P3JX => 33
+FD1S3AX => 6
+GSR => 1
+IB => 4
+L6MUX21 => 3
+LUT4 => 442
+OB => 57
+PFUMX => 22
+ROM128X1A => 2
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 3
+  Net : PLL/VDAC_clk_c, loads : 158
+  Net : PLL/clk_20MHz, loads : 18
+  Net : clk_c, loads : 5
+Clock Enable Nets
+Number of Clock Enables: 28
+Top 10 highest fanout Clock Enables:
+  Net : DSI_control_P/VDAC_clk_c_enable_139, loads : 26
+  Net : DSI_control_N/VDAC_clk_c_enable_155, loads : 25
+  Net : DSI_control_P/VDAC_clk_c_enable_152, loads : 14
+  Net : DSI_control_P/VDAC_clk_c_enable_39, loads : 12
+  Net : DSI_control_N/VDAC_clk_c_enable_138, loads : 12
+  Net : DSI_control_P/VDAC_clk_c_enable_153, loads : 10
+  Net : DSI_control_N/VDAC_clk_c_enable_106, loads : 10
+  Net : Serial_busP/clk_20MHz_enable_17, loads : 7
+  Net : DSI_BUS1N/VDAC_clk_c_enable_64, loads : 7
+  Net : DSI_BUS1P/VDAC_clk_c_enable_143, loads : 4
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : rst_d_N_267_c, loads : 65
+  Net : DSI_control_N/idle_11, loads : 28
+  Net : DSI_control_N/rst_d, loads : 26
+  Net : DSI_control_P/VDAC_clk_c_enable_139, loads : 26
+  Net : DSI_control_P/idle_11, loads : 25
+  Net : DSI_control_P/n3985, loads : 25
+  Net : DSI_control_P/init_adj_363, loads : 25
+  Net : DSI_control_N/VDAC_clk_c_enable_155, loads : 25
+  Net : DSI_control_N/n3914, loads : 25
+  Net : DSI_control_N/init, loads : 21
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk2 [get_nets clk_20MHz]               |  200.000 MHz|   96.506 MHz|     8 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets clk_c]                   |  200.000 MHz|  338.639 MHz|     2  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets VDAC_clk_c]              |  200.000 MHz|   54.484 MHz|    14 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+
+Peak Memory Usage: 75.965  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 2.844  secs
+--------------------------------------------------------------

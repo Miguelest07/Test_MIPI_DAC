@@ -1,0 +1,93 @@
+# Reading pref.tcl
+# do {C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDtest/SIM1/SIM1.mdo}
+# Loading project SIM1
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2020.3 Compiler 2020.10 Oct 14 2020
+# Start time: 11:30:46 on Dec 16,2021
+# vlog -reportprogress 300 "+incdir+C:/Users/Roman" Perez/Desktop/Lattice_projects/Test -work work C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v 
+# ** Error: (vlog-7) Failed to open design unit file "Perez/Desktop/Lattice_projects/Test" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 11:30:46 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/lscc/diamond/3.12/modeltech/win32loem/vlog failed.
+# Error in macro C:\Users\Roman Perez\Desktop\Lattice_projects\Test\LEDtest\SIM1\SIM1.mdo line 13
+# C:/lscc/diamond/3.12/modeltech/win32loem/vlog failed.
+#     while executing
+# "vlog  +incdir+C:/Users/Roman Perez/Desktop/Lattice_projects/Test  -work work  "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v""
+#     invoked from within
+# "if {![file exists "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDtest/SIM1/SIM1.mpf"]} { 
+# 	project new "C:/Users/Roman Perez/Desktop/Lattice_p..."
+# Load canceled
+# Compile of top.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.top
+# vsim -gui work.top 
+# Start time: 11:33:02 on Dec 16,2021
+# //  ModelSim - Lattice FPGA Edition 2020.3 Oct 14 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Lattice FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.top
+# ** Error: (vsim-3033) Instantiation of 'OSCH' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v Line: 8
+#         Searched libraries:
+#             C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDtest/SIM1/work
+# Loading work.slow_counter
+# Error loading design
+# End time: 11:33:03 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 6
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 11:33:20 on Dec 16,2021
+# Loading work.testbench
+# Loading work.top
+# ** Error: (vsim-3033) Instantiation of 'OSCH' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut File: C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v Line: 8
+#         Searched libraries:
+#             C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDtest/SIM1/work
+# Loading work.slow_counter
+# Error loading design
+# End time: 11:33:20 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -gui work.slow_counter
+# vsim -gui work.slow_counter 
+# Start time: 11:33:26 on Dec 16,2021
+# Loading work.slow_counter
+quit -sim
+# End time: 11:33:38 on Dec 16,2021, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 1
+vsim -gui work.top
+# vsim -gui work.top 
+# Start time: 11:34:14 on Dec 16,2021
+# Loading work.top
+# ** Error: (vsim-3033) Instantiation of 'OSCH' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v Line: 8
+#         Searched libraries:
+#             C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDtest/SIM1/work
+# Loading work.slow_counter
+# Error loading design
+# End time: 11:34:14 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 11:34:21 on Dec 16,2021
+# Loading work.testbench
+# Loading work.top
+# ** Error: (vsim-3033) Instantiation of 'OSCH' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut File: C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v Line: 8
+#         Searched libraries:
+#             C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDtest/SIM1/work
+# Loading work.slow_counter
+# Error loading design
+# End time: 11:34:21 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Load canceled

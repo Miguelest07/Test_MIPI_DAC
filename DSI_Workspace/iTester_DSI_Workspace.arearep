@@ -1,0 +1,108 @@
+----------------------------------------------------------------------
+Report for cell DSI_Workspace.TECH
+Register bits:  178 of 7485 (2.378%)
+I/O cells:      61
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        84          100.0
+                            EHXPLLJ         1          100.0
+                            FD1P3AX        23          100.0
+                            FD1P3AY         6          100.0
+                            FD1P3IX       110          100.0
+                            FD1P3JX        33          100.0
+                            FD1S3AX         6          100.0
+                                GSR         1          100.0
+                                 IB         4          100.0
+                            L6MUX21         3          100.0
+                               LUT4       442          100.0
+                                 OB        57          100.0
+                              PFUMX        22          100.0
+                          ROM128X1A         2          100.0
+SUB MODULES
+                       DSI_Protocol         1
+                    DSI_Protocol_U1         1
+                          DSI_Slave         1
+                       DSI_Slave_U2         1
+                          PLL_block         1
+                    Serial_Protocol         1
+                 Serial_Protocol_U0         1
+                              TOTAL       801
+----------------------------------------------------------------------
+Report for cell Serial_Protocol.v1
+Instance Path : Serial_busP
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4            4.8
+                            FD1P3AX         1            4.3
+                            FD1P3AY         1           16.7
+                            FD1P3IX         7            6.4
+                            L6MUX21         1           33.3
+                               LUT4        39            8.8
+                              PFUMX         5           22.7
+                              TOTAL        58
+----------------------------------------------------------------------
+Report for cell DSI_Protocol.v1
+Instance Path : DSI_control_P
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        32           38.1
+                            FD1P3AX         7           30.4
+                            FD1P3AY         2           33.3
+                            FD1P3IX        48           43.6
+                            FD1P3JX        15           45.5
+                            L6MUX21         2           66.7
+                               LUT4       225           50.9
+                              PFUMX         7           31.8
+                              TOTAL       338
+----------------------------------------------------------------------
+Report for cell PLL_block.v1
+Instance Path : PLL
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            EHXPLLJ         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell DSI_Slave_U2.v1
+Instance Path : DSI_BUS1N
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         5           21.7
+                            FD1P3IX         1            0.9
+                            FD1P3JX         1            3.0
+                               LUT4         9            2.0
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell DSI_Protocol_U1.v1
+Instance Path : DSI_control_N
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        32           38.1
+                            FD1P3AX         6           26.1
+                            FD1P3AY         2           33.3
+                            FD1P3IX        46           41.8
+                            FD1P3JX        15           45.5
+                            FD1S3AX         1           16.7
+                               LUT4       137           31.0
+                              PFUMX         4           18.2
+                              TOTAL       243
+----------------------------------------------------------------------
+Report for cell DSI_Slave.v1
+Instance Path : DSI_BUS1P
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         4           17.4
+                            FD1P3IX         1            0.9
+                            FD1P3JX         2            6.1
+                               LUT4        10            2.3
+                              TOTAL        17
+----------------------------------------------------------------------
+Report for cell Serial_Protocol_U0.v1
+Instance Path : Serial_busN
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4            4.8
+                            FD1P3AY         1           16.7
+                            FD1P3IX         7            6.4
+                            FD1S3AX         1           16.7
+                               LUT4        12            2.7
+                              TOTAL        25

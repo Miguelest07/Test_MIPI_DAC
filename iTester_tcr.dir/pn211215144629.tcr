@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/15/2021 14:46:17
+#Project Location: C:/Users/Roman Perez/Desktop/Lattice_projects/Test; Project name: iTester
+prj_project open "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDsTest.ldf"
+prj_project close
+#Stop recording: 12/15/2021 14:46:29

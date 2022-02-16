@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.10, Oct 14 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDtest/SIM1
+vslow_counter
+Z1 !s110 1639675963
+!i10b 1
+!s100 gTcd82P2D2`G7ie_aB8TJ0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6IFjm6gG<R?a4HY3Ac25G3
+R0
+Z3 w1639596318
+Z4 8C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v
+Z5 FC:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v
+!i122 0
+L0 13 24
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OT;L;2020.3;71
+r1
+!s85 0
+31
+Z8 !s108 1639675962.000000
+Z9 !s107 C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Roman Perez/Desktop/Lattice_projects/Test/top.v|
+!s101 -O0
+!i113 1
+Z11 o-work work -O0
+Z12 tCvgOpt 0
+vtestbench
+R1
+!i10b 1
+!s100 ^kD]fMXOC`Iocm?5N;QcL2
+R2
+Il:_EclK6S=P;;7J;bP:Vl1
+R0
+w1639596327
+8C:/Users/Roman Perez/Desktop/Lattice_projects/Test/testbench.v
+FC:/Users/Roman Perez/Desktop/Lattice_projects/Test/testbench.v
+!i122 1
+L0 3 19
+R6
+R7
+r1
+!s85 0
+31
+!s108 1639675963.000000
+!s107 C:/Users/Roman Perez/Desktop/Lattice_projects/Test/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Roman Perez/Desktop/Lattice_projects/Test/testbench.v|
+!s101 -O0
+!i113 1
+R11
+R12
+vtop
+R1
+!i10b 1
+!s100 YVcQMPjVVoPdj5lW8AF3z0
+R2
+IjMfbQNXPgh94JEUXA1zF:3
+R0
+R3
+R4
+R5
+!i122 0
+L0 1 11
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12

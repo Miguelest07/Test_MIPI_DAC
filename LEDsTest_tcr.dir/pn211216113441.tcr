@@ -1,0 +1,8 @@
+#Start recording tcl command: 12/16/2021 11:28:06
+#Project Location: C:/Users/Roman Perez/Desktop/Lattice_projects/Test; Project name: LEDsTest
+prj_project open "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDsTest.ldf"
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/Roman Perez/Desktop/Lattice_projects/Test/LEDtest/SIM1/SIM1.spf"
+prj_project save
+prj_project close
+#Stop recording: 12/16/2021 11:34:41
